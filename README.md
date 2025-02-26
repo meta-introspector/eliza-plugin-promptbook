@@ -1,6 +1,6 @@
-# Eliza Plugin Starter Template
+# Eliza Plugin Promptbook
 
-This repository provides a starter template for creating plugins for the [Eliza](https://github.com/ai16z/eliza) AI agent framework. It includes example implementations for search functionality using Tavily and Exa APIs.
+Promptbook https://github.com/webgptorg/promptbook/ plugin for eliza
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ This repository provides a starter template for creating plugins for the [Eliza]
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/eliza-plugin-starter.git
+git clone https://github.com/meta-introspector/eliza-plugin-starter.git
 cd eliza-plugin-starter
 ```
 

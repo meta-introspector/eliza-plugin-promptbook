@@ -1,0 +1,5 @@
+
+
+> eliza-plugin-promptbook@0.1.0 build /mnt/data1/nix/time/2024/12/31/cloud-deployment-eliza/vendor/ptbk/eliza-plugin-promptbook
+> tsc && cp -R src/plugins dist/plugins
+
