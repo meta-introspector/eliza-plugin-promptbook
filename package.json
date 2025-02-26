@@ -26,8 +26,8 @@
     "dependencies": {
       "@elizaos/core": "workspace:*",	
 	    "@ai16z/plugin-0g": "0.1.6-alpha.4",
-	    "dotenv": "^16.4.7",
-	    "promptbook": "workspace:*"
+	    "dotenv": "^16.4.7"
+
     },
     "devDependencies": {
 	"@babel/parser": "^7.26.3",
