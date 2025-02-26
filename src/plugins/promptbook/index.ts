@@ -1,6 +1,6 @@
 import { Plugin } from "@ai16z/eliza";
-import { promptbookAction } from "./action";
-import { promptbookEvaluator } from "./evaluator";
+import { promptbookAction } from "./action.ts";
+import { promptbookEvaluator } from "./evaluator.ts";
 
 export const promptbookPlugin: Plugin = {
   name: "zos-promptbook",

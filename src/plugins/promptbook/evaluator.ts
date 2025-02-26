@@ -1,5 +1,8 @@
 import { Evaluator } from "@ai16z/eliza";
-import { wizzard } from '@promptbook/wizzard';
+//import { wizzard } from "../promptbook/src/index.ts";
+//import { wizzard } from "../promptbook/src/wizzard/wizzard.ts";
+//import { wizzard } from "@promptbook/wizzard";
+import { wizzard } from "promptbook";
 
 export const promptbookEvaluator: Evaluator = {
   name: "EXECUTE_PROMPTBOOK",
@@ -36,6 +39,7 @@ export const promptbookEvaluator: Evaluator = {
     }
 
     try {
+      const { wizzard } = await import(`${process.cwd()}/vendor/ptbk/eliza-plugin-promptbook/src/plugins/promptbook`);
       const result = await wizzard.execute(bookPath, parameters);
       const { outputParameters } = result;
       return {
@@ -51,7 +55,8 @@ export const promptbookEvaluator: Evaluator = {
     } catch (error) {
       return {
         isValid: false,
-        output: `promptbook failed: ${error.message}`,
+        output: `promptbook failed:`,
+        // ${error.message}`,
       };
     }
   },

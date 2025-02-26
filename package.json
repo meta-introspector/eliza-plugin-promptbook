@@ -24,11 +24,10 @@
   "author": "",
   "license": "MIT",
     "dependencies": {
-	"@ai16z/client-direct": "0.1.6-alpha.4",
-	"@ai16z/eliza": "0.1.6-alpha.4",
-	"@ai16z/plugin-0g": "0.1.6-alpha.4",
-	"dotenv": "^16.4.7",
-	"promptbook": "workspace:*"
+      "@elizaos/core": "workspace:*",	
+	    "@ai16z/plugin-0g": "0.1.6-alpha.4",
+	    "dotenv": "^16.4.7",
+	    "promptbook": "workspace:*"
     },
     "devDependencies": {
 	"@babel/parser": "^7.26.3",
