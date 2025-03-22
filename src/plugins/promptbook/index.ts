@@ -1,4 +1,4 @@
-import { Plugin } from "@ai16z/eliza";
+import { Plugin } from "@elizaos/core";
 import { promptbookAction } from "./action.ts";
 import { promptbookEvaluator } from "./evaluator.ts";
 

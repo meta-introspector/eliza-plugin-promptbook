@@ -1,8 +1,8 @@
-import { Evaluator } from "@ai16z/eliza";
+import { Evaluator } from "@elizaos/core";
 //import { wizzard } from "../promptbook/src/index.ts";
 //import { wizzard } from "../promptbook/src/wizzard/wizzard.ts";
 //import { wizzard } from "@promptbook/wizzard";
-import { wizzard } from "@promptbook/wizzard";
+import * as wizzard from "@promptbook/core";
 
 export const promptbookEvaluator: Evaluator = {
   name: "EXECUTE_PROMPTBOOK",

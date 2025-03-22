@@ -5,7 +5,7 @@ import {
   ActionExample,
   Handler,
   Validator,
-} from "@ai16z/eliza";
+} from "@elizaos/core";
 
 export interface SearchResult {
   title: string;

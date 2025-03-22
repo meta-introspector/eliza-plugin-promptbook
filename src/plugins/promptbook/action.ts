@@ -3,11 +3,11 @@ import {
   type IAgentRuntime,
   type Memory,
   type State,
-  composeContext,
-  elizaLogger,
-  ModelClass,
-  generateObject,
-  truncateToCompleteSentence,
+ // composeContext,
+  //elizaLogger,
+  //ModelClass,
+  //generateObject,
+  //truncateToCompleteSentence,
 } from "@elizaos/core";
 export const promptbookAction: Action = {
   name: "RUN_PROMPTBOOK",
