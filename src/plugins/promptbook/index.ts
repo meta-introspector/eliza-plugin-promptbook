@@ -1,0 +1,11 @@
+import { Plugin } from "@elizaos/core";
+import { promptbookAction } from "./action.ts";
+import { promptbookEvaluator } from "./evaluator.ts";
+
+export const promptbookPlugin: Plugin = {
+  name: "zos-promptbook",
+  description: "Executes Promptbook (.book) files in the ZOS lattice, enabling recursive prompt weaving on Solana",
+  actions: [promptbookAction],
+  evaluators: [promptbookEvaluator],
+  providers: [],
+};
